@@ -105,7 +105,7 @@ namespace VK
 
             f_User_Page.Show();
 
-
+            this.Opacity = 0.0;
 
         }
 
@@ -119,6 +119,11 @@ namespace VK
                 try { pictureBox1.Image = new Bitmap(ofd.FileName); }
                 catch { MessageBox.Show("Невозможно открыть выбраный файл"); }
             }
+        }
+
+        private void F_Registration_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

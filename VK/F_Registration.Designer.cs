@@ -155,6 +155,7 @@
             Name = "F_Registration";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "F_Registration";
+            Load += F_Registration_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

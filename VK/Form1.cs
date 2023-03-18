@@ -65,6 +65,7 @@ namespace VK
         {
             F_Registration f_Registration = new F_Registration();
             f_Registration.Show();
+            this.Opacity = 0.0;
 
         }
 

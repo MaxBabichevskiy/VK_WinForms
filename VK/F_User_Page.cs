@@ -79,6 +79,7 @@ namespace VK
         {
             F_News f_News = new F_News();
             f_News.Show();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
